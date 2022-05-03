@@ -1,0 +1,89 @@
+body{
+    font-family: 'Open sans', serif;
+    font-size: larger;
+    color: darkgray;
+    max-width: 90%;
+    margin: auto;
+    background-color:ghostwhite;
+    /*
+    background-image: linear-gradient(to bottom, #65A0DB, #65A0DB);
+    background-image: url(farmer.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    */  
+}
+
+/*header > h1{
+    background-color: yellow;
+}
+*/
+
+h2, h1{
+    color: black;
+}
+
+q{
+    width: 50%;
+    display: block;
+    margin: auto;
+    font-size: 160%;
+    background-color: lightgrey;
+    border-left: 3px solid;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+.villagers{
+    border-left-color:brown;
+}
+
+.farmer{
+    border-left-color: royalblue;
+}
+
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.good{
+    color: green;
+    text-transform: capitalize;
+}
+
+.bad{
+    color:red;
+    text-transform: capitalize;
+}
+
+tr:nth-child(odd){
+    background-color:lightgray;
+
+}
+
+#first{
+    font-weight: bold;
+}
+
+img{
+    width: 50%;
+    float: left;
+    margin-right: 100px;
+}
+
+section{
+    margin-top: 50px;
+}
